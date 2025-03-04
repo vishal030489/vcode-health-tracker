@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+users:
+  message: "Welcome to Vcode users related local APIs "
+  contactDetails:
+    name: "Vishal Awalkar - Developer"
+    email: "awalkarvishal03@gmail.com"
+  onCallSupport:
+    - 9561901904
+    - 9822585479

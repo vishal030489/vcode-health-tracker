@@ -1,0 +1,23 @@
+server:
+  port: 8082
+spring:
+ application:
+  name: configuration-management-server
+ profiles:
+    active: native
+ cloud:
+  config:
+    server:
+     native:
+      search-locations: "classpath:/config"
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:9090/eureka/
+        
+

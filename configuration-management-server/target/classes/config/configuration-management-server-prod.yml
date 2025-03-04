@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+configuration-management-server:
+  message: "Welcome to Users Body Parameters  related local APIs "
+  contactDetails:
+    name: "Vishal Awalkar - Developer"
+    email: "awalkarvishal03@gmail.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-1345

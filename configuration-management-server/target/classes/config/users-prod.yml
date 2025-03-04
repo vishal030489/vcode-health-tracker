@@ -1,0 +1,11 @@
+build:
+  version: "5.0"
+
+users:
+  message: "Welcome to Vcode accounts related Prod APIs "
+  contactDetails:
+    name: "Vishal Awalkar - Developer"
+    email: "awalkarvishal03@gmail.com"
+  onCallSupport:
+    - (91) 9561901904
+    - (91) 9822585479
