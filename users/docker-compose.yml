@@ -1,0 +1,26 @@
+services:
+  users:
+    image: "dockerhub3495/users:s4"
+    container_name: users-ms
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - health-tracker
+  user-body-parameters:
+    image: "dockerhub3495/user-body-parameters:s4"
+    container_name: user-body-parameters-ms
+    ports:
+      - "8090:8090"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - health-tracker
+networks:
+  health-tracker:
+    driver: "bridge"
